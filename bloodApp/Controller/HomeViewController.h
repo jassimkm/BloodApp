@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "MenuViewController.h"
-@interface HomeViewController : UIViewController <ChildViewControllerDelegate>
+@interface HomeViewController : UIViewController <MenuChildViewControllerDelegate>
 
 @end

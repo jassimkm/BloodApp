@@ -11,6 +11,7 @@
 		C52AC04C1DC2006D004DE814 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC04B1DC2006D004DE814 /* HomeViewController.m */; };
 		C52AC04F1DC200AA004DE814 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC04E1DC200AA004DE814 /* ProfileViewController.m */; };
 		C52AC0521DC200B6004DE814 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0511DC200B6004DE814 /* MenuViewController.m */; };
+		C52AC0571DC20E2F004DE814 /* GFPageSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0561DC20E2F004DE814 /* GFPageSlider.m */; };
 		C5EE51781DC1D980004BD326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE51771DC1D980004BD326 /* main.m */; };
 		C5EE517B1DC1D980004BD326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE517A1DC1D980004BD326 /* AppDelegate.m */; };
 		C5EE517E1DC1D980004BD326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE517D1DC1D980004BD326 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 		C52AC04E1DC200AA004DE814 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		C52AC0501DC200B6004DE814 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C52AC0511DC200B6004DE814 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		C52AC0551DC20E2F004DE814 /* GFPageSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFPageSlider.h; sourceTree = "<group>"; };
+		C52AC0561DC20E2F004DE814 /* GFPageSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFPageSlider.m; sourceTree = "<group>"; };
 		C5EE51731DC1D97D004BD326 /* bloodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bloodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EE51771DC1D980004BD326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5EE51791DC1D980004BD326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		C52AC0531DC200C1004DE814 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C52AC0541DC20E2F004DE814 /* GFPageSlider */,
 				C52AC04A1DC2006D004DE814 /* HomeViewController.h */,
 				C52AC04B1DC2006D004DE814 /* HomeViewController.m */,
 				C52AC04D1DC200AA004DE814 /* ProfileViewController.h */,
@@ -81,6 +85,15 @@
 				C52AC0511DC200B6004DE814 /* MenuViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C52AC0541DC20E2F004DE814 /* GFPageSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C52AC0551DC20E2F004DE814 /* GFPageSlider.h */,
+				C52AC0561DC20E2F004DE814 /* GFPageSlider.m */,
+			);
+			path = GFPageSlider;
 			sourceTree = "<group>";
 		};
 		C5EE516A1DC1D97B004BD326 = {
@@ -252,6 +265,7 @@
 				C5EE517B1DC1D980004BD326 /* AppDelegate.m in Sources */,
 				C5EE51781DC1D980004BD326 /* main.m in Sources */,
 				C52AC04C1DC2006D004DE814 /* HomeViewController.m in Sources */,
+				C52AC0571DC20E2F004DE814 /* GFPageSlider.m in Sources */,
 				C52AC04F1DC200AA004DE814 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

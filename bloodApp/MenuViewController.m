@@ -21,6 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.delegate moveToAnotherPage:1];
+}
+- (void)viewWillAppear:(BOOL)animated{
+     [super viewDidLoad];
+    [self.delegate moveToAnotherPage:2];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -55,13 +55,18 @@
     
     pageSlider.menuHeight = 44.0f;
     pageSlider.menuNumberPerPage = 2;
-    
+
     
     pageSlider.indicatorLineColor = [UIColor whiteColor];
     [self.view addSubview:pageSlider];
 }
 - (void)moveToAnotherPage{
-    NSLog(@"The delegate is working");
+    NSLog(@"The delegate of profile is working");
 }
+- (void)moveToAnotherPage:(int)index{
+    NSLog(@"The delegate is working %i",index);
+}
+
+
 
 @end

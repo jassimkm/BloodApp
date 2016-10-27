@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@protocol profileChildViewControllerDelegate <NSObject>
+- (void)moveToAnotherPage;
+@end
 @interface ProfileViewController : UIViewController
 @property (nonatomic, strong) UINavigationController *navigationControllerProfile;
+@property (assign) id <profileChildViewControllerDelegate> delegate;
+
 @end

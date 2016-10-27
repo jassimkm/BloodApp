@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol ChildViewControllerDelegate <NSObject>
-- (void)moveToAnotherPage;
+@protocol MenuChildViewControllerDelegate <NSObject>
+- (void)moveToAnotherPage:(int)index;
 @end
 @interface MenuViewController : UIViewController
 @property (nonatomic, strong) UINavigationController *navigationControllerMenu;
-@property (assign) id <ChildViewControllerDelegate> delegate;
+@property (assign) id <MenuChildViewControllerDelegate> delegate;
 @end
