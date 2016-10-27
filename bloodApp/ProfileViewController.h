@@ -10,7 +10,7 @@
 @protocol profileChildViewControllerDelegate <NSObject>
 - (void)moveToAnotherPage;
 @end
-@interface ProfileViewController : UIViewController
+@interface ProfileViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UINavigationController *navigationControllerProfile;
 @property (assign) id <profileChildViewControllerDelegate> delegate;
 
