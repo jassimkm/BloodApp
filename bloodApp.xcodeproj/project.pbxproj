@@ -11,6 +11,27 @@
 		C52AC04C1DC2006D004DE814 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC04B1DC2006D004DE814 /* HomeViewController.m */; };
 		C52AC04F1DC200AA004DE814 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC04E1DC200AA004DE814 /* ProfileViewController.m */; };
 		C52AC0521DC200B6004DE814 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0511DC200B6004DE814 /* MenuViewController.m */; };
+		C52AC0571DC20E2F004DE814 /* GFPageSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0561DC20E2F004DE814 /* GFPageSlider.m */; };
+		C52AC05A1DC21C74004DE814 /* MenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0591DC21C74004DE814 /* MenuCollectionViewCell.m */; };
+		C52AC0631DC21F08004DE814 /* Adventure4.png in Resources */ = {isa = PBXBuildFile; fileRef = C52AC05D1DC21F07004DE814 /* Adventure4.png */; };
+		C52AC0641DC21F08004DE814 /* flights4.png in Resources */ = {isa = PBXBuildFile; fileRef = C52AC05E1DC21F08004DE814 /* flights4.png */; };
+		C52AC0651DC21F08004DE814 /* hostels4.png in Resources */ = {isa = PBXBuildFile; fileRef = C52AC05F1DC21F08004DE814 /* hostels4.png */; };
+		C52AC0661DC21F08004DE814 /* rental4.png in Resources */ = {isa = PBXBuildFile; fileRef = C52AC0601DC21F08004DE814 /* rental4.png */; };
+		C52AC0671DC21F08004DE814 /* shopping4.png in Resources */ = {isa = PBXBuildFile; fileRef = C52AC0611DC21F08004DE814 /* shopping4.png */; };
+		C52AC0681DC21F08004DE814 /* wellness4.png in Resources */ = {isa = PBXBuildFile; fileRef = C52AC0621DC21F08004DE814 /* wellness4.png */; };
+		C52AC06C1DC222D3004DE814 /* DonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC06B1DC222D3004DE814 /* DonateViewController.m */; };
+		C52AC06F1DC222E9004DE814 /* ScheduleAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC06E1DC222E9004DE814 /* ScheduleAppointmentViewController.m */; };
+		C52AC0721DC2230C004DE814 /* HostDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0711DC2230C004DE814 /* HostDriveViewController.m */; };
+		C52AC0751DC22352004DE814 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0741DC22352004DE814 /* LoginViewController.m */; };
+		C52AC0781DC22366004DE814 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0771DC22366004DE814 /* SignUpViewController.m */; };
+		C52AC07B1DC22374004DE814 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC07A1DC22374004DE814 /* WelcomeViewController.m */; };
+		C52AC07E1DC225DC004DE814 /* SearchDonorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC07D1DC225DC004DE814 /* SearchDonorsViewController.m */; };
+		C52AC0811DC225F0004DE814 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0801DC225F0004DE814 /* SearchResultsViewController.m */; };
+		C52AC0841DC225FD004DE814 /* NearByDonorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0831DC225FD004DE814 /* NearByDonorsViewController.m */; };
+		C52AC0871DC229B2004DE814 /* OrganizeBloodDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0861DC229B2004DE814 /* OrganizeBloodDriveViewController.m */; };
+		C52AC08A1DC229D4004DE814 /* DonateFundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0891DC229D4004DE814 /* DonateFundsViewController.m */; };
+		C52AC0901DC22A16004DE814 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC08F1DC22A16004DE814 /* EventsViewController.m */; };
+		C52AC0931DC22A25004DE814 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0921DC22A25004DE814 /* AboutUsViewController.m */; };
 		C5EE51781DC1D980004BD326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE51771DC1D980004BD326 /* main.m */; };
 		C5EE517B1DC1D980004BD326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE517A1DC1D980004BD326 /* AppDelegate.m */; };
 		C5EE517E1DC1D980004BD326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE517D1DC1D980004BD326 /* ViewController.m */; };
@@ -29,6 +50,42 @@
 		C52AC04E1DC200AA004DE814 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		C52AC0501DC200B6004DE814 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C52AC0511DC200B6004DE814 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		C52AC0551DC20E2F004DE814 /* GFPageSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFPageSlider.h; sourceTree = "<group>"; };
+		C52AC0561DC20E2F004DE814 /* GFPageSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFPageSlider.m; sourceTree = "<group>"; };
+		C52AC0581DC21C74004DE814 /* MenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuCollectionViewCell.h; path = View/MenuCollectionViewCell.h; sourceTree = "<group>"; };
+		C52AC0591DC21C74004DE814 /* MenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuCollectionViewCell.m; path = View/MenuCollectionViewCell.m; sourceTree = "<group>"; };
+		C52AC05D1DC21F07004DE814 /* Adventure4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adventure4.png; sourceTree = "<group>"; };
+		C52AC05E1DC21F08004DE814 /* flights4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flights4.png; sourceTree = "<group>"; };
+		C52AC05F1DC21F08004DE814 /* hostels4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hostels4.png; sourceTree = "<group>"; };
+		C52AC0601DC21F08004DE814 /* rental4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rental4.png; sourceTree = "<group>"; };
+		C52AC0611DC21F08004DE814 /* shopping4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping4.png; sourceTree = "<group>"; };
+		C52AC0621DC21F08004DE814 /* wellness4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wellness4.png; sourceTree = "<group>"; };
+		C52AC06A1DC222D3004DE814 /* DonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateViewController.h; sourceTree = "<group>"; };
+		C52AC06B1DC222D3004DE814 /* DonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateViewController.m; sourceTree = "<group>"; };
+		C52AC06D1DC222E9004DE814 /* ScheduleAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleAppointmentViewController.h; path = GFPageSlider/ScheduleAppointmentViewController.h; sourceTree = "<group>"; };
+		C52AC06E1DC222E9004DE814 /* ScheduleAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleAppointmentViewController.m; path = GFPageSlider/ScheduleAppointmentViewController.m; sourceTree = "<group>"; };
+		C52AC0701DC2230C004DE814 /* HostDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostDriveViewController.h; sourceTree = "<group>"; };
+		C52AC0711DC2230C004DE814 /* HostDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostDriveViewController.m; sourceTree = "<group>"; };
+		C52AC0731DC22352004DE814 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C52AC0741DC22352004DE814 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C52AC0761DC22366004DE814 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		C52AC0771DC22366004DE814 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		C52AC0791DC22374004DE814 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		C52AC07A1DC22374004DE814 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		C52AC07C1DC225DC004DE814 /* SearchDonorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDonorsViewController.h; sourceTree = "<group>"; };
+		C52AC07D1DC225DC004DE814 /* SearchDonorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDonorsViewController.m; sourceTree = "<group>"; };
+		C52AC07F1DC225F0004DE814 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
+		C52AC0801DC225F0004DE814 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
+		C52AC0821DC225FD004DE814 /* NearByDonorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByDonorsViewController.h; sourceTree = "<group>"; };
+		C52AC0831DC225FD004DE814 /* NearByDonorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByDonorsViewController.m; sourceTree = "<group>"; };
+		C52AC0851DC229B2004DE814 /* OrganizeBloodDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizeBloodDriveViewController.h; sourceTree = "<group>"; };
+		C52AC0861DC229B2004DE814 /* OrganizeBloodDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizeBloodDriveViewController.m; sourceTree = "<group>"; };
+		C52AC0881DC229D4004DE814 /* DonateFundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateFundsViewController.h; sourceTree = "<group>"; };
+		C52AC0891DC229D4004DE814 /* DonateFundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateFundsViewController.m; sourceTree = "<group>"; };
+		C52AC08E1DC22A16004DE814 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		C52AC08F1DC22A16004DE814 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		C52AC0911DC22A25004DE814 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		C52AC0921DC22A25004DE814 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		C5EE51731DC1D97D004BD326 /* bloodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bloodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EE51771DC1D980004BD326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5EE51791DC1D980004BD326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,14 +130,71 @@
 		C52AC0531DC200C1004DE814 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C52AC0911DC22A25004DE814 /* AboutUsViewController.h */,
+				C52AC0921DC22A25004DE814 /* AboutUsViewController.m */,
+				C52AC08E1DC22A16004DE814 /* EventsViewController.h */,
+				C52AC08F1DC22A16004DE814 /* EventsViewController.m */,
+				C52AC0851DC229B2004DE814 /* OrganizeBloodDriveViewController.h */,
+				C52AC0861DC229B2004DE814 /* OrganizeBloodDriveViewController.m */,
+				C52AC0881DC229D4004DE814 /* DonateFundsViewController.h */,
+				C52AC0891DC229D4004DE814 /* DonateFundsViewController.m */,
+				C52AC07C1DC225DC004DE814 /* SearchDonorsViewController.h */,
+				C52AC07D1DC225DC004DE814 /* SearchDonorsViewController.m */,
+				C52AC07F1DC225F0004DE814 /* SearchResultsViewController.h */,
+				C52AC0801DC225F0004DE814 /* SearchResultsViewController.m */,
+				C52AC0821DC225FD004DE814 /* NearByDonorsViewController.h */,
+				C52AC0831DC225FD004DE814 /* NearByDonorsViewController.m */,
+				C52AC0761DC22366004DE814 /* SignUpViewController.h */,
+				C52AC0771DC22366004DE814 /* SignUpViewController.m */,
+				C52AC0791DC22374004DE814 /* WelcomeViewController.h */,
+				C52AC07A1DC22374004DE814 /* WelcomeViewController.m */,
+				C52AC06D1DC222E9004DE814 /* ScheduleAppointmentViewController.h */,
+				C52AC06E1DC222E9004DE814 /* ScheduleAppointmentViewController.m */,
+				C52AC06A1DC222D3004DE814 /* DonateViewController.h */,
+				C52AC06B1DC222D3004DE814 /* DonateViewController.m */,
 				C52AC04A1DC2006D004DE814 /* HomeViewController.h */,
 				C52AC04B1DC2006D004DE814 /* HomeViewController.m */,
 				C52AC04D1DC200AA004DE814 /* ProfileViewController.h */,
 				C52AC04E1DC200AA004DE814 /* ProfileViewController.m */,
 				C52AC0501DC200B6004DE814 /* MenuViewController.h */,
 				C52AC0511DC200B6004DE814 /* MenuViewController.m */,
+				C52AC0701DC2230C004DE814 /* HostDriveViewController.h */,
+				C52AC0711DC2230C004DE814 /* HostDriveViewController.m */,
+				C52AC0731DC22352004DE814 /* LoginViewController.h */,
+				C52AC0741DC22352004DE814 /* LoginViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C52AC0541DC20E2F004DE814 /* GFPageSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C52AC0551DC20E2F004DE814 /* GFPageSlider.h */,
+				C52AC0561DC20E2F004DE814 /* GFPageSlider.m */,
+			);
+			path = GFPageSlider;
+			sourceTree = "<group>";
+		};
+		C52AC05C1DC21C87004DE814 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C52AC0581DC21C74004DE814 /* MenuCollectionViewCell.h */,
+				C52AC0591DC21C74004DE814 /* MenuCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C52AC0691DC21F0E004DE814 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C52AC05D1DC21F07004DE814 /* Adventure4.png */,
+				C52AC05E1DC21F08004DE814 /* flights4.png */,
+				C52AC05F1DC21F08004DE814 /* hostels4.png */,
+				C52AC0601DC21F08004DE814 /* rental4.png */,
+				C52AC0611DC21F08004DE814 /* shopping4.png */,
+				C52AC0621DC21F08004DE814 /* wellness4.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		C5EE516A1DC1D97B004BD326 = {
@@ -104,6 +218,8 @@
 		C5EE51751DC1D97F004BD326 /* bloodApp */ = {
 			isa = PBXGroup;
 			children = (
+				C52AC05C1DC21C87004DE814 /* Views */,
+				C52AC0541DC20E2F004DE814 /* GFPageSlider */,
 				C52AC0531DC200C1004DE814 /* Controllers */,
 				C5EE51791DC1D980004BD326 /* AppDelegate.h */,
 				C5EE517A1DC1D980004BD326 /* AppDelegate.m */,
@@ -111,6 +227,7 @@
 				C5EE517D1DC1D980004BD326 /* ViewController.m */,
 				C5EE517F1DC1D980004BD326 /* Main.storyboard */,
 				C5EE51821DC1D981004BD326 /* Assets.xcassets */,
+				C52AC0691DC21F0E004DE814 /* Images */,
 				C5EE51841DC1D981004BD326 /* LaunchScreen.storyboard */,
 				C5EE51871DC1D981004BD326 /* Info.plist */,
 				C5EE51761DC1D980004BD326 /* Supporting Files */,
@@ -189,6 +306,12 @@
 				C5EE51861DC1D981004BD326 /* LaunchScreen.storyboard in Resources */,
 				C5EE51831DC1D981004BD326 /* Assets.xcassets in Resources */,
 				C5EE51811DC1D980004BD326 /* Main.storyboard in Resources */,
+				C52AC0661DC21F08004DE814 /* rental4.png in Resources */,
+				C52AC0681DC21F08004DE814 /* wellness4.png in Resources */,
+				C52AC0671DC21F08004DE814 /* shopping4.png in Resources */,
+				C52AC0651DC21F08004DE814 /* hostels4.png in Resources */,
+				C52AC0641DC21F08004DE814 /* flights4.png in Resources */,
+				C52AC0631DC21F08004DE814 /* Adventure4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,12 +370,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52AC07E1DC225DC004DE814 /* SearchDonorsViewController.m in Sources */,
+				C52AC0901DC22A16004DE814 /* EventsViewController.m in Sources */,
+				C52AC0931DC22A25004DE814 /* AboutUsViewController.m in Sources */,
 				C5EE517E1DC1D980004BD326 /* ViewController.m in Sources */,
 				C52AC0521DC200B6004DE814 /* MenuViewController.m in Sources */,
 				C5EE517B1DC1D980004BD326 /* AppDelegate.m in Sources */,
 				C5EE51781DC1D980004BD326 /* main.m in Sources */,
+				C52AC0841DC225FD004DE814 /* NearByDonorsViewController.m in Sources */,
+				C52AC06C1DC222D3004DE814 /* DonateViewController.m in Sources */,
+				C52AC07B1DC22374004DE814 /* WelcomeViewController.m in Sources */,
+				C52AC06F1DC222E9004DE814 /* ScheduleAppointmentViewController.m in Sources */,
 				C52AC04C1DC2006D004DE814 /* HomeViewController.m in Sources */,
+				C52AC0571DC20E2F004DE814 /* GFPageSlider.m in Sources */,
+				C52AC0751DC22352004DE814 /* LoginViewController.m in Sources */,
 				C52AC04F1DC200AA004DE814 /* ProfileViewController.m in Sources */,
+				C52AC05A1DC21C74004DE814 /* MenuCollectionViewCell.m in Sources */,
+				C52AC08A1DC229D4004DE814 /* DonateFundsViewController.m in Sources */,
+				C52AC0781DC22366004DE814 /* SignUpViewController.m in Sources */,
+				C52AC0871DC229B2004DE814 /* OrganizeBloodDriveViewController.m in Sources */,
+				C52AC0721DC2230C004DE814 /* HostDriveViewController.m in Sources */,
+				C52AC0811DC225F0004DE814 /* SearchResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

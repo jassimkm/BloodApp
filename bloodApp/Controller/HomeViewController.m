@@ -41,7 +41,6 @@
     MenuViewController *MenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"menuController"];
     ProfileViewController *profileViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"profileController"];
     profileViewController.navigationControllerProfile = self.navigationController;
-    MenuViewController.navigationControllerMenu = self.navigationController;
     MenuViewController.delegate = self;
     [self addChildViewController:MenuViewController];
     [self addChildViewController:profileViewController];
@@ -55,13 +54,18 @@
     
     pageSlider.menuHeight = 44.0f;
     pageSlider.menuNumberPerPage = 2;
-    
+
     
     pageSlider.indicatorLineColor = [UIColor whiteColor];
     [self.view addSubview:pageSlider];
 }
 - (void)moveToAnotherPage{
-    NSLog(@"The delegate is working");
+    NSLog(@"The delegate of profile is working");
 }
+- (void)moveToAnotherPage:(int)index{
+    NSLog(@"The delegate is working %i",index);
+}
+
+
 
 @end

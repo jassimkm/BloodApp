@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  OrganizeBloodDriveViewController.h
 //  bloodApp
 //
 //  Created by GlossyMac2 on 27/10/16.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MenuViewController.h"
-@interface HomeViewController : UIViewController <MenuChildViewControllerDelegate>
+
+@interface OrganizeBloodDriveViewController : UIViewController
 
 @end
