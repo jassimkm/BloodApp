@@ -41,7 +41,6 @@
     MenuViewController *MenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"menuController"];
     ProfileViewController *profileViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"profileController"];
     profileViewController.navigationControllerProfile = self.navigationController;
-    MenuViewController.navigationControllerMenu = self.navigationController;
     MenuViewController.delegate = self;
     [self addChildViewController:MenuViewController];
     [self addChildViewController:profileViewController];

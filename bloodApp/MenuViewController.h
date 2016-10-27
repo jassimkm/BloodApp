@@ -11,6 +11,6 @@
 - (void)moveToAnotherPage:(int)index;
 @end
 @interface MenuViewController : UIViewController
-@property (nonatomic, strong) UINavigationController *navigationControllerMenu;
+@property (strong, nonatomic) IBOutlet UICollectionView *menuCollectionView;
 @property (assign) id <MenuChildViewControllerDelegate> delegate;
 @end
