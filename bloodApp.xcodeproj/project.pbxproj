@@ -28,6 +28,10 @@
 		C52AC07E1DC225DC004DE814 /* SearchDonorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC07D1DC225DC004DE814 /* SearchDonorsViewController.m */; };
 		C52AC0811DC225F0004DE814 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0801DC225F0004DE814 /* SearchResultsViewController.m */; };
 		C52AC0841DC225FD004DE814 /* NearByDonorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0831DC225FD004DE814 /* NearByDonorsViewController.m */; };
+		C52AC0871DC229B2004DE814 /* OrganizeBloodDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0861DC229B2004DE814 /* OrganizeBloodDriveViewController.m */; };
+		C52AC08A1DC229D4004DE814 /* DonateFundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0891DC229D4004DE814 /* DonateFundsViewController.m */; };
+		C52AC0901DC22A16004DE814 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC08F1DC22A16004DE814 /* EventsViewController.m */; };
+		C52AC0931DC22A25004DE814 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0921DC22A25004DE814 /* AboutUsViewController.m */; };
 		C5EE51781DC1D980004BD326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE51771DC1D980004BD326 /* main.m */; };
 		C5EE517B1DC1D980004BD326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE517A1DC1D980004BD326 /* AppDelegate.m */; };
 		C5EE517E1DC1D980004BD326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE517D1DC1D980004BD326 /* ViewController.m */; };
@@ -74,6 +78,14 @@
 		C52AC0801DC225F0004DE814 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
 		C52AC0821DC225FD004DE814 /* NearByDonorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByDonorsViewController.h; sourceTree = "<group>"; };
 		C52AC0831DC225FD004DE814 /* NearByDonorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByDonorsViewController.m; sourceTree = "<group>"; };
+		C52AC0851DC229B2004DE814 /* OrganizeBloodDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizeBloodDriveViewController.h; sourceTree = "<group>"; };
+		C52AC0861DC229B2004DE814 /* OrganizeBloodDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizeBloodDriveViewController.m; sourceTree = "<group>"; };
+		C52AC0881DC229D4004DE814 /* DonateFundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateFundsViewController.h; sourceTree = "<group>"; };
+		C52AC0891DC229D4004DE814 /* DonateFundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateFundsViewController.m; sourceTree = "<group>"; };
+		C52AC08E1DC22A16004DE814 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		C52AC08F1DC22A16004DE814 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		C52AC0911DC22A25004DE814 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		C52AC0921DC22A25004DE814 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		C5EE51731DC1D97D004BD326 /* bloodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bloodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EE51771DC1D980004BD326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5EE51791DC1D980004BD326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +130,14 @@
 		C52AC0531DC200C1004DE814 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C52AC0911DC22A25004DE814 /* AboutUsViewController.h */,
+				C52AC0921DC22A25004DE814 /* AboutUsViewController.m */,
+				C52AC08E1DC22A16004DE814 /* EventsViewController.h */,
+				C52AC08F1DC22A16004DE814 /* EventsViewController.m */,
+				C52AC0851DC229B2004DE814 /* OrganizeBloodDriveViewController.h */,
+				C52AC0861DC229B2004DE814 /* OrganizeBloodDriveViewController.m */,
+				C52AC0881DC229D4004DE814 /* DonateFundsViewController.h */,
+				C52AC0891DC229D4004DE814 /* DonateFundsViewController.m */,
 				C52AC07C1DC225DC004DE814 /* SearchDonorsViewController.h */,
 				C52AC07D1DC225DC004DE814 /* SearchDonorsViewController.m */,
 				C52AC07F1DC225F0004DE814 /* SearchResultsViewController.h */,
@@ -351,6 +371,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52AC07E1DC225DC004DE814 /* SearchDonorsViewController.m in Sources */,
+				C52AC0901DC22A16004DE814 /* EventsViewController.m in Sources */,
+				C52AC0931DC22A25004DE814 /* AboutUsViewController.m in Sources */,
 				C5EE517E1DC1D980004BD326 /* ViewController.m in Sources */,
 				C52AC0521DC200B6004DE814 /* MenuViewController.m in Sources */,
 				C5EE517B1DC1D980004BD326 /* AppDelegate.m in Sources */,
@@ -364,7 +386,9 @@
 				C52AC0751DC22352004DE814 /* LoginViewController.m in Sources */,
 				C52AC04F1DC200AA004DE814 /* ProfileViewController.m in Sources */,
 				C52AC05A1DC21C74004DE814 /* MenuCollectionViewCell.m in Sources */,
+				C52AC08A1DC229D4004DE814 /* DonateFundsViewController.m in Sources */,
 				C52AC0781DC22366004DE814 /* SignUpViewController.m in Sources */,
+				C52AC0871DC229B2004DE814 /* OrganizeBloodDriveViewController.m in Sources */,
 				C52AC0721DC2230C004DE814 /* HostDriveViewController.m in Sources */,
 				C52AC0811DC225F0004DE814 /* SearchResultsViewController.m in Sources */,
 			);
