@@ -25,10 +25,14 @@
     
     [self initViewControllers];
     
-
+   
 
 }
 
+- (void) parentMethodThatChildCanCall
+{
+    //do thing
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -36,6 +40,9 @@
 - (void)initViewControllers {
     MenuViewController *MenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"menuController"];
     ProfileViewController *profileViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"profileController"];
+    profileViewController.navigationControllerProfile = self.navigationController;
+    MenuViewController.navigationControllerMenu = self.navigationController;
+    MenuViewController.delegate = self;
     [self addChildViewController:MenuViewController];
     [self addChildViewController:profileViewController];
     _viewControllers = [[NSMutableArray alloc] init];
@@ -46,19 +53,15 @@
                                                    viewControllers:_viewControllers
                                                   menuButtonTitles:@[@"Features", @"Profile"]];
     
-    pageSlider.menuHeight = 40.0f;
+    pageSlider.menuHeight = 44.0f;
     pageSlider.menuNumberPerPage = 2;
-    pageSlider.indicatorLineColor = [UIColor blueColor];
+    
+    
+    pageSlider.indicatorLineColor = [UIColor whiteColor];
     [self.view addSubview:pageSlider];
 }
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)moveToAnotherPage{
+    NSLog(@"The delegate is working");
 }
-*/
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface HomeViewController : UIViewController
+#import "MenuViewController.h"
+@interface HomeViewController : UIViewController <ChildViewControllerDelegate>
 
 @end

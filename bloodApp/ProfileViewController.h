@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ProfileViewController : UIViewController
-
+@property (nonatomic, strong) UINavigationController *navigationControllerProfile;
 @end

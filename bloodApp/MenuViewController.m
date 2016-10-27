@@ -13,7 +13,11 @@
 @end
 
 @implementation MenuViewController
+@synthesize delegate;
 
+
+// to call parent method:
+//  [self.delegate parentMethodThatChildCanCall];
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
