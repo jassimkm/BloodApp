@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASTextField.h"
 
 @interface LoginViewController : UIViewController
+@property (weak, nonatomic) IBOutlet ASTextField *username;
+@property (weak, nonatomic) IBOutlet ASTextField *password;
+@property (weak, nonatomic) IBOutlet UIButton *getStartedButton;
+- (IBAction)createAccountAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *getStartedAction;
 
 @end

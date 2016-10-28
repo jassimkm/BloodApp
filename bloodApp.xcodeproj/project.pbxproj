@@ -32,6 +32,17 @@
 		C52AC08A1DC229D4004DE814 /* DonateFundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0891DC229D4004DE814 /* DonateFundsViewController.m */; };
 		C52AC0901DC22A16004DE814 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC08F1DC22A16004DE814 /* EventsViewController.m */; };
 		C52AC0931DC22A25004DE814 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52AC0921DC22A25004DE814 /* AboutUsViewController.m */; };
+		C5D80E671DC301A5006D93F0 /* ASTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D80E591DC301A5006D93F0 /* ASTextField.m */; };
+		C5D80E681DC301A5006D93F0 /* round_textfield.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E5C1DC301A5006D93F0 /* round_textfield.png */; };
+		C5D80E691DC301A5006D93F0 /* round_textfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E5D1DC301A5006D93F0 /* round_textfield@2x.png */; };
+		C5D80E6A1DC301A5006D93F0 /* text_field.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E5E1DC301A5006D93F0 /* text_field.png */; };
+		C5D80E6B1DC301A5006D93F0 /* text_field@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E5F1DC301A5006D93F0 /* text_field@2x.png */; };
+		C5D80E6C1DC301A5006D93F0 /* password_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E611DC301A5006D93F0 /* password_icon.png */; };
+		C5D80E6D1DC301A5006D93F0 /* password_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E621DC301A5006D93F0 /* password_icon@2x.png */; };
+		C5D80E6E1DC301A5006D93F0 /* user_name_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E631DC301A5006D93F0 /* user_name_icon.png */; };
+		C5D80E6F1DC301A5006D93F0 /* user_name_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E641DC301A5006D93F0 /* user_name_icon@2x.png */; };
+		C5D80E701DC301A5006D93F0 /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E651DC301A5006D93F0 /* login_button.png */; };
+		C5D80E711DC301A5006D93F0 /* login_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D80E661DC301A5006D93F0 /* login_button@2x.png */; };
 		C5EE51781DC1D980004BD326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE51771DC1D980004BD326 /* main.m */; };
 		C5EE517B1DC1D980004BD326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE517A1DC1D980004BD326 /* AppDelegate.m */; };
 		C5EE517E1DC1D980004BD326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE517D1DC1D980004BD326 /* ViewController.m */; };
@@ -86,6 +97,18 @@
 		C52AC08F1DC22A16004DE814 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
 		C52AC0911DC22A25004DE814 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
 		C52AC0921DC22A25004DE814 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		C5D80E581DC301A5006D93F0 /* ASTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTextField.h; sourceTree = "<group>"; };
+		C5D80E591DC301A5006D93F0 /* ASTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTextField.m; sourceTree = "<group>"; };
+		C5D80E5C1DC301A5006D93F0 /* round_textfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round_textfield.png; sourceTree = "<group>"; };
+		C5D80E5D1DC301A5006D93F0 /* round_textfield@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round_textfield@2x.png"; sourceTree = "<group>"; };
+		C5D80E5E1DC301A5006D93F0 /* text_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_field.png; sourceTree = "<group>"; };
+		C5D80E5F1DC301A5006D93F0 /* text_field@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_field@2x.png"; sourceTree = "<group>"; };
+		C5D80E611DC301A5006D93F0 /* password_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_icon.png; sourceTree = "<group>"; };
+		C5D80E621DC301A5006D93F0 /* password_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_icon@2x.png"; sourceTree = "<group>"; };
+		C5D80E631DC301A5006D93F0 /* user_name_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_name_icon.png; sourceTree = "<group>"; };
+		C5D80E641DC301A5006D93F0 /* user_name_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_name_icon@2x.png"; sourceTree = "<group>"; };
+		C5D80E651DC301A5006D93F0 /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_button.png; sourceTree = "<group>"; };
+		C5D80E661DC301A5006D93F0 /* login_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_button@2x.png"; sourceTree = "<group>"; };
 		C5EE51731DC1D97D004BD326 /* bloodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bloodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EE51771DC1D980004BD326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5EE51791DC1D980004BD326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -197,6 +220,49 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		C5D80E571DC301A5006D93F0 /* ASTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C5D80E581DC301A5006D93F0 /* ASTextField.h */,
+				C5D80E591DC301A5006D93F0 /* ASTextField.m */,
+				C5D80E5A1DC301A5006D93F0 /* Resources */,
+			);
+			path = ASTextField;
+			sourceTree = "<group>";
+		};
+		C5D80E5A1DC301A5006D93F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5D80E5B1DC301A5006D93F0 /* backgrounds */,
+				C5D80E601DC301A5006D93F0 /* icon */,
+				C5D80E651DC301A5006D93F0 /* login_button.png */,
+				C5D80E661DC301A5006D93F0 /* login_button@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5D80E5B1DC301A5006D93F0 /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				C5D80E5C1DC301A5006D93F0 /* round_textfield.png */,
+				C5D80E5D1DC301A5006D93F0 /* round_textfield@2x.png */,
+				C5D80E5E1DC301A5006D93F0 /* text_field.png */,
+				C5D80E5F1DC301A5006D93F0 /* text_field@2x.png */,
+			);
+			path = backgrounds;
+			sourceTree = "<group>";
+		};
+		C5D80E601DC301A5006D93F0 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				C5D80E611DC301A5006D93F0 /* password_icon.png */,
+				C5D80E621DC301A5006D93F0 /* password_icon@2x.png */,
+				C5D80E631DC301A5006D93F0 /* user_name_icon.png */,
+				C5D80E641DC301A5006D93F0 /* user_name_icon@2x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
 		C5EE516A1DC1D97B004BD326 = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				C52AC05C1DC21C87004DE814 /* Views */,
+				C5D80E571DC301A5006D93F0 /* ASTextField */,
 				C52AC0541DC20E2F004DE814 /* GFPageSlider */,
 				C52AC0531DC200C1004DE814 /* Controllers */,
 				C5EE51791DC1D980004BD326 /* AppDelegate.h */,
@@ -303,12 +370,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D80E6D1DC301A5006D93F0 /* password_icon@2x.png in Resources */,
+				C5D80E681DC301A5006D93F0 /* round_textfield.png in Resources */,
 				C5EE51861DC1D981004BD326 /* LaunchScreen.storyboard in Resources */,
+				C5D80E6F1DC301A5006D93F0 /* user_name_icon@2x.png in Resources */,
 				C5EE51831DC1D981004BD326 /* Assets.xcassets in Resources */,
+				C5D80E691DC301A5006D93F0 /* round_textfield@2x.png in Resources */,
 				C5EE51811DC1D980004BD326 /* Main.storyboard in Resources */,
+				C5D80E711DC301A5006D93F0 /* login_button@2x.png in Resources */,
+				C5D80E701DC301A5006D93F0 /* login_button.png in Resources */,
+				C5D80E6A1DC301A5006D93F0 /* text_field.png in Resources */,
 				C52AC0661DC21F08004DE814 /* rental4.png in Resources */,
+				C5D80E6B1DC301A5006D93F0 /* text_field@2x.png in Resources */,
 				C52AC0681DC21F08004DE814 /* wellness4.png in Resources */,
+				C5D80E6C1DC301A5006D93F0 /* password_icon.png in Resources */,
 				C52AC0671DC21F08004DE814 /* shopping4.png in Resources */,
+				C5D80E6E1DC301A5006D93F0 /* user_name_icon.png in Resources */,
 				C52AC0651DC21F08004DE814 /* hostels4.png in Resources */,
 				C52AC0641DC21F08004DE814 /* flights4.png in Resources */,
 				C52AC0631DC21F08004DE814 /* Adventure4.png in Resources */,
@@ -377,6 +454,7 @@
 				C52AC0521DC200B6004DE814 /* MenuViewController.m in Sources */,
 				C5EE517B1DC1D980004BD326 /* AppDelegate.m in Sources */,
 				C5EE51781DC1D980004BD326 /* main.m in Sources */,
+				C5D80E671DC301A5006D93F0 /* ASTextField.m in Sources */,
 				C52AC0841DC225FD004DE814 /* NearByDonorsViewController.m in Sources */,
 				C52AC06C1DC222D3004DE814 /* DonateViewController.m in Sources */,
 				C52AC07B1DC22374004DE814 /* WelcomeViewController.m in Sources */,
